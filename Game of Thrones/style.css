@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap');
+.photo
+{
+    border-radius: 10rem;
+    height: 10rem;
+    width: 10rem;
+    border: 6px solid white;
+   
+    /* width: 10rem; */
+}
+
+.photo:hover
+{
+    transform: scale(1.07);
+}
+
+.pic
+{
+    text-align: center;
+}
+
+body
+{
+    height: 100%;
+    
+
+}
+
+
+
+
+
+.banner
+{
+    background-image: url(https://images2.alphacoders.com/599/599756.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    
+}
+
+
+
+.heading
+{
+    /* font-family: 'Monoton', cursive; */
+    height: 5rem;
+    width: 100%;
+    font-size: 8rem;
+    position: absolute;
+    top:10rem;
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.characters
+{
+    position: absolute;
+    top: 33rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    background-image: url(https://wallup.net/wp-content/uploads/2017/05/29/391470-Game_of_Thrones-fantasy_art-artwork-The_Wall-748x421.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    
+
+   
+
+}
+
+
+.container
+{
+    background-color:lightgray;
+    
+    
+}
+
+
+
+.container:hover
+{
+    transform: scale(1.05);
+    background-color: pink;
+  box-shadow: -6px -2px 20px 2px rgb(255, 0, 200);
+}
+.detailsn
+{
+    color: black;
+}
+
+
+
+
+.details
+{
+    word-wrap: break-word;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 700;
+    color: rgba(223, 23, 23, 0.918);
+}
+
+h2
+{
+    width: 13rem;
+}
+
+
+@media only screen and (max-width: 575px) and (min-width: 280px)  
+{
+    .heading
+    {
+        font-size: 3rem;
+    }
+
+    .container
+    {
+        margin-left: 1rem;
+        margin-right: auto;
+    }
+    
+}
+
